@@ -57,6 +57,11 @@
             <groupId>io.quarkus</groupId>
             <artifactId>quarkus-smallrye-graphql</artifactId>
         </dependency>
+        <dependency>
+          <groupId>io.quarkus</groupId>
+          <artifactId>quarkus-cache</artifactId>
+        </dependency>
+        
         <!-- Shared backend -->
         <dependency>
             <groupId>${project.groupId}</groupId>

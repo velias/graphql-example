@@ -30,5 +30,21 @@ public class Profile {
     public void setScores(List<Score> scores) {
         this.scores = scores;
     }
-    
+
+   
+    @Override
+    public boolean equals(Object obj) {
+        if (getId() == null)
+            return obj == this;
+        return getId().equals(((Profile) obj).getId());
+    }
+
+    @Override
+    public int hashCode() {
+        if (id == null)
+            return super.hashCode();
+        else
+            return id.hashCode();
+    }
+
 }

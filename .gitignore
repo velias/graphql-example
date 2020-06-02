@@ -32,3 +32,6 @@ hs_err_pid*
 /wildfly-example/target/
 /quarkus-example/target/
 /quarkus-client/target/
+
+# IDE project stuff
+.*
